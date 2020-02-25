@@ -24,5 +24,15 @@ namespace RestaurantRater.Models
         [Required]
         [Range(1,5)]
         public int AverageCost { get; set; }
+
+        
+
+
+
+
+
+
+
+
     }
 }

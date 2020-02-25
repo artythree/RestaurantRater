@@ -13,9 +13,6 @@ namespace RestaurantRater.Models
 
         }
 
-        public DbSet<T> Restaurant<T>()
-        {
-
-        }
+        public DbSet<Restaurant> Restaurant { get; set; }
     }
 }
